@@ -13,7 +13,8 @@ package omarmuy.week8lab_omarmuy;
 public class DriverClass {
     
     private static Application configureApplication(){
-        Application app;
+        
+        Application app = null;
         ClothingFactory factory;
         
         String testS = "The invitation is for a casual meeting";
