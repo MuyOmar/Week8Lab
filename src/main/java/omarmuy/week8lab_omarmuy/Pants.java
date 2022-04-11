@@ -8,7 +8,8 @@ package omarmuy.week8lab_omarmuy;
 /**
  *
  * @author ramoy
+ * interface for the PANTS family
  */
 public interface Pants {
-    
+    void TypeOfPants();
 }

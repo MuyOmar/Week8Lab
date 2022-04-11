@@ -8,7 +8,8 @@ package omarmuy.week8lab_omarmuy;
 /**
  *
  * @author ramoy
+ * interface for the TOPS family
  */
 public interface Tops {
-    
+    void TypeOfTop();
 }

@@ -8,8 +8,7 @@ package omarmuy.week8lab_omarmuy;
 /**
  *
  * @author ramoy
- * Make interface for the SHOE family
  */
-public interface Shoes {
-    void TypeOfShoes();
+public class CasualFactory {
+    
 }
