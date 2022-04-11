@@ -15,7 +15,7 @@ public class DriverClass {
         Application app;
         WritingFactory factory;
 
-        String printName = "Check the config file for cominc";
+        String printName = "Check the config file for comic paper";
 
         if (printName.contains("paper")) {
             factory = new ComicBookFactory();
