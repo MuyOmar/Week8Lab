@@ -9,6 +9,23 @@ package omarmuy.week8lab_omarmuy;
  *
  * @author ramoy
  */
-public class CasualFactory {
+public class CasualFactory implements ClothingFactory{
+// Implement all abstract methods for casual factory 
+   
+    @Override
+    public Pants typeOfPant() {
+        return new CasualPants();
+    }
+
+    @Override
+    public Shoes typeOfShoe() {
+        return new CasualShoes();
+    }
+
+    @Override
+    public Tops typeOfTop() {
+        return new CasualTop();
+    }
+    
     
 }

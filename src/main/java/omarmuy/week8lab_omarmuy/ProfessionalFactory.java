@@ -9,6 +9,21 @@ package omarmuy.week8lab_omarmuy;
  *
  * @author ramoy
  */
-public class ProfessionalFactory {
-    
+public class ProfessionalFactory implements ClothingFactory {
+
+    @Override
+    public Pants typeOfPant() {
+        return new ProPants();
+    }
+
+    @Override
+    public Shoes typeOfShoe() {
+        return new ProShoes();
+    }
+
+    @Override
+    public Tops typeOfTop() {
+        return new ProTop();
+    }
+
 }

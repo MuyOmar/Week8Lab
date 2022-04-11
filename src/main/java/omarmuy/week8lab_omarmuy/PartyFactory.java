@@ -9,6 +9,21 @@ package omarmuy.week8lab_omarmuy;
  *
  * @author ramoy
  */
-public class PartyFactory {
+public class PartyFactory implements ClothingFactory{
+
+    @Override
+    public Pants typeOfPant() {
+        return new PartyPants();
+    }
+
+    @Override
+    public Shoes typeOfShoe() {
+        return new PartyShoes();
+    }
+
+    @Override
+    public Tops typeOfTop() {
+        return new PartyTop();
+    }
     
 }

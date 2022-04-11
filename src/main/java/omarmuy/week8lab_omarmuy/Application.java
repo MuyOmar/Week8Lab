@@ -20,4 +20,10 @@ public class Application {
         pants.TypeOfPants();
         shoes.TypeOfShoes();
     }
+    
+    public void revealContent(){
+        tops.TypeOfTop();
+        pants.TypeOfPants();
+        shoes.TypeOfShoes();
+    }
 }

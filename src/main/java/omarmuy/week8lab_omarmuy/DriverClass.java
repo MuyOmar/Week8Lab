@@ -30,6 +30,10 @@ public class DriverClass {
             factory = new PartyFactory();
             app = new Application(factory);
         }
+        else {
+            System.out.println("Don't know what to wear");
+        }
+        return app;
     }
     
     public static void main(String[] args) {
